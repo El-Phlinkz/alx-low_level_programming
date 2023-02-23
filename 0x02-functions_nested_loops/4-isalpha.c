@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
+ * _isalpha - Check Holberton
+ * @c: An input character
  * if the character is a lowercase or uppercase.
  * Return: 1 or 0 in otherwise.
  */
