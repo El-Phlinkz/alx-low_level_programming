@@ -16,6 +16,5 @@ int main(void)
 	for (UpperC = 'A'; UpperC <= 'Z'; UpperC++)
 		putchar(UpperC);
 	putchar('\n');
-	
 	return (0);
 }
