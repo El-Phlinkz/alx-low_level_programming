@@ -6,8 +6,14 @@
  */
 int _islower(int c)
 {
-	if (c >= "a" && c <= "z")
-		return (1);
-	else
-		return (0);
+	char letter;
+	int lower = 0;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter == c)
+			lower = 1;
+	}
+
+	return (lower);
 }
