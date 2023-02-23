@@ -11,10 +11,11 @@ int main(void)
 	char LowerC;
 	char UpperC;
 	for (LowerC = 'a'; LowerC <= 'z'; LowerC++)
-		
+	{
 		putchar(LowerC);
 	for (UpperC = 'A'; UpperC <= 'Z'; UpperC++)
 		putchar(UpperC);
+	}
 	putchar('\n');
 	return (0);
 }
