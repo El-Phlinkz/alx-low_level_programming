@@ -2,17 +2,17 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-  char LowerC;
-  char UpperC;
+	char LowerC;
+	char UpperC;
 	for (LowerC = 'a'; LowerC <= 'z'; LowerC++)
 		putchar(LowerC);
-	for (UpperC = 'a'; UpperC <= 'z'; UpperC++)
+	for (UpperC = 'A'; UpperC <= 'Z'; UpperC++)
 		putchar(UpperC);
 	putchar('\n');
 	return (0);
