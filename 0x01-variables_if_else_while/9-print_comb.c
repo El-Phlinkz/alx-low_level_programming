@@ -8,13 +8,17 @@
  */
 int main(void)
 {
-	int d;
+	int n;
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-		if (d != '9')
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+		if (n != '9')
+		{
 			putchar(',');
 			putchar(' ');
+		}
+	}
 	putchar('\n');
 
 	return (0);
