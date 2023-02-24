@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * times_table - Check description
@@ -7,30 +7,30 @@
  */
 void times_table(void)
 {
-	int i, j, n;
+	int A, B, C;
 
-	for (i = 0; i <= 9; i++)
+	for (A = 0; A <= 9; A++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (B = 0; B <= 9; B++)
 		{
-			n = i * j;
+			C = A * B;
 
-			if ((n / 10) == 0)
+			if ((C / 10) == 0)
 			{
-				if (j != 0)
+				if (B != 0)
 					_putchar(' ');
-				_putchar(n + '0');
+				_putchar(C + '0');
 
-				if (j == 9)
+				if (B == 9)
 					continue;
 				_putchar(',');
 				_putchar(' ');
 			}
 			else
 			{
-				_putchar((n / 10) + '0');
-				_putchar((n % 10) + '0');
-				if (j == 9)
+				_putchar((C / 10) + '0');
+				_putchar((C % 10) + '0');
+				if (B == 9)
 					continue;
 				_putchar(',');
 				_putchar(' ');
