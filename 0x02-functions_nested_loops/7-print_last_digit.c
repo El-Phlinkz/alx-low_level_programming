@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_last_digit - Check Main
  * @r: An integer input
@@ -14,4 +13,3 @@ int print_last_digit(int n)
 		_putchar(n % 10);
 	else
 	return (n % 10);
-}
