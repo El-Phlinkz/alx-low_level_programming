@@ -19,12 +19,10 @@ void print_triangle(int size)
     else
      _putchar('#');
    }
-c--;
-_putchar('\n');
-}
-else
-_putchar('\n');
+  c--;
+  _putchar('\n');
+  }
+ else
+  _putchar('\n');
  }
 }
-
-
