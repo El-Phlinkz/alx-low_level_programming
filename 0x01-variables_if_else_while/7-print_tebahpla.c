@@ -8,6 +8,7 @@
 int main(void)
 {
 	int NUM;
+
 	for (NUM = 'z' ; NUM >= 'a' ; NUM--)
 		putchar(NUM);
 	putchar ('\n');
