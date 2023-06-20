@@ -10,8 +10,9 @@ int main(void)
 {
 	int NUM;
 	char UPP;
+
 	for (NUM = '0' ; NUM <= '9' ; NUM++)
-		putchar(LOW);
+		putchar(NUM);
 	for (UPP = 'a' ; UPP <= 'f' ; UPP++)
 		putchar(UPP);
 	putchar('\n');
