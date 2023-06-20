@@ -11,9 +11,9 @@ int main(void)
 	char NUM;
 	char UPP;
 	for (NUM = '0' ; NUM <= '9' ; NUM++)
-		putchar (LOW);
+		putchar(LOW);
 	for (UPP = 'a' ; UPP <= 'f' ; UPP++)
-		putchar (UPP);
-		putchar ('\n');
+		putchar(UPP);
+		putchar('\n');
 	return (0);
 }
