@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	char LOW;
+	int LOW;
 	char UPP;
 
 	for (LOW = 'a' ; LOW <= 'z' ; LOW++)
 		putchar(LOW);
 	for (UPP = 'A' ; UPP <= 'Z' ; UPP++)
 		putchar(UPP);
-		putchar('\n');
+			putchar('\n');
 	return (0);
 }
