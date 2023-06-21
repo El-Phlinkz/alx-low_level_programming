@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isalpha - Check Holberton
  * @c: An input character
