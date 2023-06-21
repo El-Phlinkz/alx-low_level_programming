@@ -15,10 +15,10 @@ int _isalpha(int c)
 	for (Up = 'a' ; Up <= 'z' ; Up++)
 	{
 		for (Lo = 'A' ; Lo <= 'Z' ; Lo++)
-			{
-			if (c == Up && c == Lo)
+		{
+			if (c == Up || c == Lo)
 				i = 1;
-			}
+		}
 	}
 	return (i);
 }
