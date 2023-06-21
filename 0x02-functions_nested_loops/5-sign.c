@@ -8,23 +8,23 @@
  */
 int print_sign(int n)
 {
-	int value;
+	int sign;
 
 	if (n > 0)
 	{
-		value = 1;
+		sign = 1;
 		_putchar('+');
 	}
 	else if (n == 0)
 	{
-		value = 0;
+		sign  = 0;
 		_putchar('0');
 	}
 	else
 	{
-		value = -1;
+		sign = -1;
 		_putchar('-');
 	}
 
-	return (value);
+	return (sign);
 }
