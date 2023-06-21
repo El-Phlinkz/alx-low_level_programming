@@ -1,22 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * _isalpha - Check Holberton
+ * _isalpha - check next line
+ * checks for alphabetic character.
  * @c: An input character
- * Description: function returns 1 if the character is a
- * letter, lowercase or uppercase.
- * Return: 1 or 0 in otherwise.
+ * Return: 1 if is lowercase or uppercase and  0 if is otherwise
  */
 int _isalpha(int c)
 {
-	char lo;
-	char up;
+	char ALP;
+	char AL;
 	int i = 0;
 
-	for (lo = 'a'; lo <= 'z'; lo++)
+	for (ALP = 'a' ; ALP <= 'z' ; ALP++)
 	{
-		for (up = 'A'; up <= 'Z'; up++)
+		for (AL = 'A' ; AL <= 'Z' ; AL++)
 		{
-			if (c == lo || c == up)
+			if (c == ALP || c == AL)
 				i = 1;
 		}
 	}
