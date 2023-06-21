@@ -3,7 +3,8 @@
 /**
  * _islower - check next line
  * checks for lowercase character.
- * Return 0
+ * @c: An input character
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
 int _islower(int c)
 {
@@ -15,5 +16,5 @@ int _islower(int c)
 		if (ALP == c)
 			i = 1;
 	}
-	return(i);
+	return (i);
 }
