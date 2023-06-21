@@ -8,13 +8,17 @@
  */
 int _isalpha(int c)
 {
-	char ALP;
+	char Up;
+	char Lo;
 	int i = 0;
 
-	for (ALP = 'a' ; ALP <= 'z' ; ALP++)
+	for (Up = 'a' ; Up <= 'z' ; Up++)
 	{
-		if (c == ALP)
-			i = 1;
+		for (Lo = 'A' ; Lo <= 'Z' ; Lo++)
+			{
+			if (c == Up && c == Lo)
+				i = 1;
+			}
 	}
 	return (i);
 }
