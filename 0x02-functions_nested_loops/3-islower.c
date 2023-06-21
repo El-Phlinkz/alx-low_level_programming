@@ -12,7 +12,7 @@ int _islower(int c)
 
 	for (ALP = 'a' ; ALP <= 'z' ; ALP++)
 	{
-		if (ALP == 'c')
+		if (ALP == c)
 			i = 1;
 	}
 	return(i);
