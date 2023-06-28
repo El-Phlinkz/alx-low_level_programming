@@ -5,11 +5,11 @@
  * Description: This function returns absolute value of a number
  * Return: Absolut value of number r
  */
-int _abs(int)
+int _abs(int n)
 {
-	int r;
-	if (r >= 0)
+	
+	if (n >= 0)
 		return (r);
 	else
-		return (r * -1);
+		return (n * -1);
 }
