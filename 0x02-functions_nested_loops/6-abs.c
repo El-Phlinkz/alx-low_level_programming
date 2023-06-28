@@ -1,13 +1,12 @@
 #include "main.h"
 /**
  *_abs - Check next line
- * @r: An integre input
+ * @n: An integre input
  * Description: This function returns absolute value of a number
- * Return: Absolut value of number r
+ * Return: Absolut value of number n
  */
 int _abs(int n)
 {
-	
 	if (n >= 0)
 		return (n);
 	else
