@@ -12,7 +12,7 @@ int _isdigit(int c)
 	int r = 0;
 	char digit;
 
-	for (digit  = '0'; digit <= 'Z'; digit++)
+	for (digit  = '0'; digit <= '9'; digit++)
 	{
 		if (c == digit)
 		{
