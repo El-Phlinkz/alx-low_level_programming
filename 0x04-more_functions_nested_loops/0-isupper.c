@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _isupper - check next line
  * checks for uppercase character
@@ -8,7 +9,7 @@
 
 int _isupper(int c)
 {
-	int r;
+	int r = 0;
 	char up;
 
 	for (up = 'A'; up <= 'Z'; up++)
@@ -19,5 +20,6 @@ int _isupper(int c)
 			break;
 		}
 	}
+
 	return (r);
 }
